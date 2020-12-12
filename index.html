@@ -4,7 +4,7 @@
 <head>
     <title>Lunch Checker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="app.css">
     <script type="text/javascript" src=" angular.min.js "></script>
     <script type="text/javascript" src="app.js"></script>
 
@@ -17,25 +17,19 @@
 </head>
 
 <body ng-controller="LunchCheckController">
-    <div class="container ">
+    <div class="container " style="background-color:;">
         <h1>Lunch Checker</h1>
 
         <div class=" form-group ">
-            <input id="lunch-menu " type="text " placeholder="list comma separated dishes you usually have for lunch " class="form-control " ng-model="items ">
-        </div>
-        <div class="form-group ">
-            <button class="btn btn-default " ng-click="check();">Check If Too Much</button>
+            <span style=color:darkgoldenrod; ">ENTER THE DISHES :</span><input class="{{green_opacity}} {{red_opacity}} " type="text " placeholder="list comma separated dishes you usually have for lunch " class="form-control "
+                ng-model="items ">
+
+            <button class="btn btn-default " ng-click="check(); ">Check If Too Much</button>
         </div>
         <div class="form-group message ">
             <!-- Your message can go here. -->
-            {{message}}
-        </div>
-        <div>
-            <div class="{{green_opacity}}">
-            </div>
-            <div class="{{red_opacity}}"></div>
-        </div>
-    </div>
+            <span Class="normal {{green_opacity}} {{red_opacity}} ">{{message}}</span> </div>
+        <img src="danger{{green_opacity}}{{red_opacity}}.jpg " alt="enter plz!!1 " style="border-style: none; "> </div>
 
 </body>
 

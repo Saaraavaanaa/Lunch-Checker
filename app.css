@@ -1,0 +1,75 @@
+body {
+    margin: auto;
+    background-image: url(" food.jpg ");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column;
+    background-color: transparent;
+}
+
+.container div {
+    background-color: transparent;
+    padding: 20px;
+    margin-left: 75px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 70px;
+}
+
+input {
+    height: 35px;
+    width: 350px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 0%;
+    margin-left: 20px;
+    border-radius: 50px;
+    border: dotted transparent;
+}
+
+button {
+    border-radius: 50px;
+    height: 20px;
+    width: 100px;
+    height: 50px;
+    padding: 2px;
+    margin-left: 30px;
+    border-color: blue;
+    border-width: 5px;
+    border-style: solid;
+}
+
+span {
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+.red {
+    color: red;
+    border-color: red;
+    font-size: 50px;
+    border-width: 3px;
+}
+
+.green {
+    color: green;
+    border-color: green;
+    font-size: 50px;
+    border-width: 3px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin-left: 700px;
+}
